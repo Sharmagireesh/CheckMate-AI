@@ -1,6 +1,6 @@
 import express from "express";
 import Thread from "../models/Thread.js";
-import getGeminiAPIResponse from "../utils/gemini.js";
+import getGeminiAPIResponse from "../utils/Gemini.js";
 
 const router = express.Router();
 

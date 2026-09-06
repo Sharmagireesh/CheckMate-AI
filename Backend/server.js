@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import "dotenv/config";
-import getGeminiAPIResponse from "./utils/gemini.js";
+import getGeminiAPIResponse from "./utils/Gemini.js";
 import mongoose from "mongoose";
 import chatRoutes from "./routes/chat.js";
 
